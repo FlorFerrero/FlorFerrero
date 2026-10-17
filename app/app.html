@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultorio — App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="index.html">Consulto<span>rio</span></a>
+    <nav class="tabs" id="tabs">
+      <button data-view="dashboard" class="active">Inicio</button>
+      <button data-view="agenda">Agenda</button>
+      <button data-view="pacientes">Pacientes</button>
+      <button data-view="cobros">Cobros</button>
+      <button data-view="ajustes">Ajustes</button>
+    </nav>
+  </header>
+
+  <main id="view"></main>
+
+  <dialog id="modal"></dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
